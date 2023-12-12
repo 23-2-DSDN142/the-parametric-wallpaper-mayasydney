@@ -9,46 +9,224 @@ Your final settings.txt will look something like this when you are finished:
 
 Wallpaper 1:
 
-//your parameter variables go here!
-let rect_width  = 20;
-let rect_height = 20;
-let paramter1 = 10;
-let paramter2 = true;
-let paramter3 = 50; 
-let paramter4 = 0; 
-let paramter5 = 60;
+let rect_width = 17;
+let rect_height = 17;
+let grid_size = 200;
+let line_width = 0.4;
+let line_colour = "black";
+let colour = "#FFFFED";
+let size = 3;
+let gap = 1.05;
+let heartsInRow = 11;
+let heartsInColumn = 11;
 
 function setup_wallpaper(pWallpaper) {
   pWallpaper.output_mode(GRID_WALLPAPER);
   pWallpaper.resolution(NINE_LANDSCAPE);
-  pWallpaper.show_guide(false); //set this to false when you're ready to print
+  pWallpaper.show_guide(false);
 
-  //Grid settings
-  pWallpaper.grid_settings.cell_width  = 100;
-  pWallpaper.grid_settings.cell_height = 100;
-  pWallpaper.grid_settings.row_offset  = 50;
+  pWallpaper.grid_settings.cell_width = 200;
+  pWallpaper.grid_settings.cell_height = 200;
+  pWallpaper.grid_settings.row_offset = 50;
 }
 
 /////////////////////////////////
 
 Wallpaper 2:
 
-//your parameter variables go here!
-let rect_width  = 10;
-let rect_height = 10;
-let paramter1 = 20;
-let paramter2 = false;
-let paramter3 = 50; 
-let paramter4 = 80; 
-let paramter5 = 30;
+let rect_width = 17;
+let rect_height = 17;
+let grid_size = 200;
+let line_width = 1;
+let line_colour = "black";
+let colour = "#FFFFED";
+let size = 6;
+let gap = 1.9;
+let heartsInRow = 6;
+let heartsInColumn = 6;
 
 function setup_wallpaper(pWallpaper) {
   pWallpaper.output_mode(GRID_WALLPAPER);
   pWallpaper.resolution(NINE_LANDSCAPE);
-  pWallpaper.show_guide(false); //set this to false when you're ready to print
+  pWallpaper.show_guide(false);
 
-  //Grid settings
-  pWallpaper.grid_settings.cell_width  = 100;
-  pWallpaper.grid_settings.cell_height = 100;
-  pWallpaper.grid_settings.row_offset  = 0;
+  pWallpaper.grid_settings.cell_width = 200;
+  pWallpaper.grid_settings.cell_height = 200;
+  pWallpaper.grid_settings.row_offset = 50;
+}
+
+/////////////////////////////////
+
+Wallpaper 3:
+
+let rect_width = 17;
+let rect_height = 17;
+let grid_size = 200;
+let line_width = 0;
+let line_colour = "black";
+let colour = "#8a9a5b";
+let size = 12;
+let gap = 3.6;
+let heartsInRow = 3;
+let heartsInColumn = 3;
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.resolution(NINE_LANDSCAPE);
+  pWallpaper.show_guide(false);
+
+  pWallpaper.grid_settings.cell_width = 200;
+  pWallpaper.grid_settings.cell_height = 200;
+  pWallpaper.grid_settings.row_offset = 50;
+}
+
+/////////////////////////////////
+
+Wallpaper 4:
+
+let rect_width = 17;
+let rect_height = 17;
+let grid_size = 200;
+let line_width = 1;
+let line_colour = "black";
+let colour = "white";
+let size = 40;
+let gap = 8.5;
+let heartsInRow = 1;
+let heartsInColumn = 1;
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.resolution(NINE_LANDSCAPE);
+  pWallpaper.show_guide(false);
+
+  pWallpaper.grid_settings.cell_width = 200;
+  pWallpaper.grid_settings.cell_height = 200;
+  pWallpaper.grid_settings.row_offset = 50;
+}
+
+/////////////////////////////////
+
+Wallpaper 5:
+
+// Changeable parameter variables
+let rect_width = 17;
+let rect_height = 17;
+let grid_size = 200;
+let line_width = 1;
+let line_colour = "#E6C4F7";
+let colour = "#E6C4F7";
+let size = 50;
+let gap = 8.5;
+let heartsInRow = 1;
+let heartsInColumn = 1;
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.resolution(NINE_LANDSCAPE);
+  pWallpaper.show_guide(false);
+
+  pWallpaper.grid_settings.cell_width = 200;
+  pWallpaper.grid_settings.cell_height = 200;
+  pWallpaper.grid_settings.row_offset = 50;
+}
+
+/////////////////////////////////
+
+Wallpaper 6:
+
+let rect_width = 17;
+let rect_height = 17;
+let grid_size = 200;
+let line_width = 1;
+let line_colour = "#DDB08B";
+let colour = "#DDB08B";
+let size = 60;
+let gap = 8;
+let heartsInRow = 1;
+let heartsInColumn = 1;
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.resolution(NINE_LANDSCAPE);
+  pWallpaper.show_guide(false);
+
+  pWallpaper.grid_settings.cell_width = 200;
+  pWallpaper.grid_settings.cell_height = 200;
+  pWallpaper.grid_settings.row_offset = 50;
+}
+
+/////////////////////////////////
+
+Wallpaper 7:
+
+let rect_width = 17;
+let rect_height = 17;
+let grid_size = 200;
+let line_width = 5;
+let line_colour = "#DDB08B";
+let colour = "#00000000";
+let size = 30;
+let gap = 8;
+let heartsInRow = 1;
+let heartsInColumn = 1;
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.resolution(NINE_LANDSCAPE);
+  pWallpaper.show_guide(false);
+
+  pWallpaper.grid_settings.cell_width = 200;
+  pWallpaper.grid_settings.cell_height = 200;
+  pWallpaper.grid_settings.row_offset = 50;
+}
+
+/////////////////////////////////
+
+Wallpaper 8:
+
+let rect_width = 17;
+let rect_height = 17;
+let grid_size = 200;
+let line_width = 2;
+let line_colour = "white";
+let colour = "white";
+let size = 10;
+let gap = 5;
+let heartsInRow = 2;
+let heartsInColumn = 2;
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.resolution(NINE_LANDSCAPE);
+  pWallpaper.show_guide(false);
+
+  pWallpaper.grid_settings.cell_width = 200;
+  pWallpaper.grid_settings.cell_height = 200;
+  pWallpaper.grid_settings.row_offset = 50;
+}
+
+/////////////////////////////////
+
+Wallpaper 9:
+
+let rect_width = 17;
+let rect_height = 17;
+let grid_size = 200;
+let line_width = 2;
+let line_colour = "#D13A9F";
+let colour = "#E580C3";
+let size = 9;
+let gap = 8;
+let heartsInRow = 3;
+let heartsInColumn = 3;
+
+function setup_wallpaper(pWallpaper) {
+  pWallpaper.output_mode(GRID_WALLPAPER);
+  pWallpaper.resolution(NINE_LANDSCAPE);
+  pWallpaper.show_guide(false);
+
+  pWallpaper.grid_settings.cell_width = 200;
+  pWallpaper.grid_settings.cell_height = 200;
+  pWallpaper.grid_settings.row_offset = 50;
 }
